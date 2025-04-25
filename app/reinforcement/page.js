@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Reinforcement() {
   return (
     <div className="container">
@@ -45,7 +47,7 @@ export default function Reinforcement() {
         </div>
         <div className="reinforce-image">
           <div className="reinforce-image-container">
-            <img
+            <Image
               src="/reinforcement-learning.webp"
               width={700}
               height={700}

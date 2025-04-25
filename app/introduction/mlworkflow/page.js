@@ -47,9 +47,11 @@ export default function Mlworkflow() {
           </li>
         </ul>
         <div className="workflow-image-container">
-          <img
+          <Image
             className="workflow-image"
             src="/mlworkgflow.webp"
+            width={500}
+            height={500}
             alt="workgflow"
           />
         </div>

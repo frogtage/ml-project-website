@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ModelBased() {
   return (
     <div className="container">
@@ -42,7 +44,7 @@ export default function ModelBased() {
         </div>
         <div className="modelBased-image">
           <div className="modelBased-image-container">
-            <img
+            <Image
               src="/model-based.webp"
               width={500}
               height={500}

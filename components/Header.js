@@ -1,6 +1,7 @@
 "use client";
 
 import MyLogo from "@/assets/my-logo.jpg";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -12,7 +13,13 @@ export default function Header() {
     <>
       <div className="header-container">
         <div className="header-logo" onClick={() => setIsActive(null)}>
-          <img className="header-image" src={MyLogo.src} alt="Header-Logo" />
+          <Image
+            className="header-image"
+            width={40}
+            height={40}
+            src={MyLogo.src}
+            alt="Header-Logo"
+          />
           <Link href="/">محمد حسین دوخائی</Link>
         </div>
         <div className="header-links">
