@@ -10,7 +10,7 @@ export default function Unsupervised() {
         مجموعه داده های بدون برچسب استفاده می کند. این الگوریتم ها الگوهای پنهان
         یا گروه بندی داده ها را بدون نیاز به دخالت انسان کشف می کنند.
       </p>
-      <div className="-image-container">
+      <div className="unsupervised-image-container">
         <Image
           src="/Unsupervised-learning.webp"
           width={1000}
