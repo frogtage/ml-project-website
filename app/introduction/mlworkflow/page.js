@@ -22,28 +22,28 @@ export default function Mlworkflow() {
             <span>2.</span> جمع آوری داده ها
           </li>
           <li>
-            <span>1.</span> پاکسازی و پیش پردازش داده ها
+            <span>3.</span> پاکسازی و پیش پردازش داده ها
           </li>
           <li>
-            <span>1.</span> تجزیه و تحلیل داده های اکتشافی
+            <span>4.</span> تجزیه و تحلیل داده های اکتشافی
           </li>
           <li>
-            <span>1.</span> مهندسی ویژگی و انتخاب
+            <span>5.</span> مهندسی ویژگی و انتخاب
           </li>
           <li>
-            <span>1.</span> انتخاب مدل
+            <span>6.</span> انتخاب مدل
           </li>
           <li>
-            <span>1.</span> آموزش مدل
+            <span>7.</span> آموزش مدل
           </li>
           <li>
-            <span>1.</span> ارزیابی و تنظیم مدل
+            <span>8.</span> ارزیابی و تنظیم مدل
           </li>
           <li>
-            <span>1.</span> استقرار مدل
+            <span>9.</span> استقرار مدل
           </li>
           <li>
-            <span>1.</span> نظارت و نگهداری مدل
+            <span>10.</span> نظارت و نگهداری مدل
           </li>
         </ul>
         <div className="workflow-image-container">
